@@ -1,0 +1,23 @@
+{
+    "level": "account",
+    "services": [
+        {
+            "service_name": "AWS Lambda",
+            "quotas": [
+                {
+                    "quota_name": "Concurrent executions",
+                    "request_limit": 100
+                }
+            ]
+        },
+        {
+            "service_name": "AWS Organizations",
+            "quotas": [
+                {
+                    "quota_name": "Default maximum number of accounts",
+                    "request_limit": 30
+                }
+            ]
+        }
+    ]
+}
